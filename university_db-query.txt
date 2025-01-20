@@ -59,7 +59,7 @@ VALUES("01", "Enrico", "Genovese","1994-09-29", "GNVNRC94P29F052S", "2025-01-20"
 10. Cambiare il numero dell’ufficio del professor Pietro Rizzo in 126
 
 UPDATE `teachers`
-SET `office_address` = "Contrada Santoro 17 Appartamento 126"
+SET `office_number` = "125"
 WHERE`id`="58";
 
 11. Eliminare dalla tabella studenti il record creato precedentemente al punto 9
